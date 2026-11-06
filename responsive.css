@@ -1,0 +1,146 @@
+/* ===================================================================
+   GO CEYLON TRAVELS - RESPONSIVE STYLES
+   Breakpoints: 1200px, 992px, 768px, 576px
+   =================================================================== */
+
+@media (max-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links, .nav-actions .btn {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-search-box {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .hero-search-btn-col {
+    grid-column: span 2;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .subpage-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-headline {
+    font-size: 2.8rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3.8rem 0;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row, .form-row-3 {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .hero-search-box {
+    grid-template-columns: 1fr !important;
+    padding: 1.25rem !important;
+  }
+
+  .hero-search-btn-col {
+    grid-column: span 1;
+  }
+
+  .hero-headline {
+    font-size: 2.2rem !important;
+  }
+
+  .hero-subheading {
+    font-size: 1.05rem !important;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .modal-dialog {
+    max-height: 95vh;
+  }
+
+  .modal-header-img {
+    height: 200px;
+  }
+
+  .modal-content-body {
+    padding: 1.5rem;
+  }
+
+  .floating-whatsapp {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 52px;
+    height: 52px;
+  }
+
+  .scroll-top-btn {
+    bottom: 1.25rem;
+    left: 1.25rem;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-title {
+    font-size: 1.05rem;
+  }
+
+  .hero-headline {
+    font-size: 1.85rem !important;
+  }
+
+  .btn {
+    padding: 0.75rem 1.4rem;
+  }
+}
